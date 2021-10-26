@@ -112,7 +112,7 @@ bitcoinToEuros(1, 25000)
 # Tarea 9
 # Creamos el archivo flag.txt
 f = open('./flag.txt', 'a')
-f.write("Este es un documento .txt")
+f.write("Este es un documento .txt\n")
 f.close()
 
 f = open('./flag.txt', 'r')
