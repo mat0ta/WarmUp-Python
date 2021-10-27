@@ -2,32 +2,6 @@
 import random
 import datetime
 
-# Importamos el código de la Tarea 5
-edad = random.randint(0, 50)
-print(edad)
-
-if edad >= 85:
-    print('No tienes hambre')
-else: 
-    if float(dinero) >= float(precioHelado) and float(hambre) < 85.0:
-        satisfaccion = 85.0 - float(hambre)
-        cantidadAComer = float(satisfaccion) / float(helado)
-        cantidadAComer = cantidadAComer.__round__() + 1
-        for i in range(1, cantidadAComer + 1):
-            print(i)
-            dinero = float(dinero) - float(precioHelado)
-            precioAñadido = float(precioHelado) * 0.20
-            precioHelado += float(precioAñadido)
-            hambre += helado
-        if cantidadAComer == 1:
-            print('Has comido 1 helado. Ahora estás un ' + str(hambre) + '%' + ' satisfecho y tienes ' + str(dinero) + '€; por lo que:')
-        else:
-            print('Has comido ' + str(cantidadAComer) + ' helados. Ahora estás un ' + str(hambre) + '%' + ' satisfecho y tienes ' + str(dinero) + '€; por lo que:')
-        if float(hambre) < 85.0:
-            print('Sigues teniendo hambre')
-        else:
-            print('Ya no tienes hambre')
-
 # Tarea 8
 # Importamos el código de bitcoin.py (He hecho algo precido directamente en la primera actividad, pero lo repito)
 investment_in_bitcoin = 1.2
