@@ -25,3 +25,10 @@ else:
             print('Sigues teniendo hambre')
         else:
             print('Ya no tienes hambre')
+
+# Output: 1
+#         2
+#         3
+#         4
+#         Has comido 4 helados. Ahora estás un 98% satisfecho y tienes 1463.2€; por lo que:
+#         Ya no tienes hambre

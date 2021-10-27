@@ -1,7 +1,7 @@
 # Realizamos los imports
 import random
 
-for i in range(0, 50 + 1):
+for i in range(0, 51):
     print(i)
 
 # Declaramos las variables de la Tarea 5
@@ -36,3 +36,12 @@ else:
             print('Sigues teniendo hambre')
         else:
             print('Ya no tienes hambre')
+
+
+# Output: *Printea números del 1 al 50*
+#         1
+#         2
+#         3
+#         34
+#         Has comido 4 helados. Ahora estás un 98% satisfecho y tienes 1463.2€; por lo que:
+#         Ya no tienes hambre

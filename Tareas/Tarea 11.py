@@ -19,3 +19,5 @@ def Comparativa(grado):
     return resultados_finales
 
 a = Comparativa([[1,4], [1,3], [7,9], [5,7], [2,8], [3,5]])
+
+# Output: Realiza la selección de importancia tras realizar la simulación de Montecarlo

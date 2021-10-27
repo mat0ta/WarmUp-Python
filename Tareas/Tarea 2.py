@@ -6,3 +6,5 @@ from colorama import Fore as color
 colorama.init(autoreset=True)
 
 print(color.GREEN+"Hello world")
+# Output: Hello world (Color verde)
+#         Hello world (Color verde)

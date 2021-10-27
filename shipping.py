@@ -9,3 +9,5 @@ else:
     shippingPrice = float(customer_basket_weight) * 1.2
     totalPrice = float(customer_basket_cost) + shippingPrice
     print('El precio total ' + str(totalPrice) + '€ (Precio de envio: ' + str(shippingPrice) + ')')
+
+# Output: El precio total de la compra es de: 125€ (Envío gratutito)

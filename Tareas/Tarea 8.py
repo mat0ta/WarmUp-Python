@@ -11,3 +11,5 @@ def bitcoinToEuros(monto_bitcoin, valor_bitcoin_euros):
     return liquidez
 
 bitcoinToEuros(1, 25000)
+
+# Output: Alerta: El valor de tu(s) Bitcoin(s) está por debajo de los 30.000 € (25000.0€)

@@ -18,3 +18,5 @@ def usdToEuro():
         print("Alerta: El valor de tu(s) Bitcoin(s) está por encima de los 30,000 €")
 
 usdToEuro()
+# Output: Posees 1.2 Bitcoin(s) valorados en 65016.0 €
+#         Alerta: El valor de tu(s) Bitcoin(s) está por encima de los 30,000 €

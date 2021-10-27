@@ -13,3 +13,5 @@ else:
 
 # Se observa como cuando se ejecuta el código con un valor de customer_basket_cost inferior a 100 te responde añadiendo el valor del coste de shipping mientras que 
 # cuando es superior, te lo da como gratutito.
+
+# Output: El precio total de la compra es de: 101€ (Envío gratutito)
