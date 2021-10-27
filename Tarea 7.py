@@ -1,3 +1,6 @@
+# Realizamos los imports
+import random
+
 for i in range(0, 50 + 1):
     print(i)
 
