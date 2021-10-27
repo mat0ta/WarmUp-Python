@@ -2,52 +2,6 @@
 import random
 import datetime
 
-# Tarea 1
-print("Roses are #ff0000 Vialoets are #0000ff why my code's working I haven't a clue")
-
-# Tarea 2
-print("\033[92mHello World\033[0m") # Empleamos el codigo de color ANSI de Python
-
-#Tarea 3
-print(21 + 43)
-print(142 - 52)
-print(10 * 342)
-print(5**2)
-
-# Tarea 4
-altura = 200
-altura += 50
-print(altura)
-
-# Tarea 5
-dinero = 2000
-precioHelado = 100
-edad = 18
-hambre = edad
-helado = 20 # Suponemos que el helado te satisface un 20%
-
-if edad >= 85:
-    print('No tienes hambre')
-else: 
-    if float(dinero) >= float(precioHelado) and float(hambre) < 85.0:
-        satisfaccion = 85.0 - float(hambre)
-        cantidadAComer = float(satisfaccion) / float(helado)
-        cantidadAComer = cantidadAComer.__round__() + 1
-        for i in range(1, cantidadAComer + 1):
-            print(i)
-            dinero = float(dinero) - float(precioHelado)
-            precioAñadido = float(precioHelado) * 0.20
-            precioHelado += float(precioAñadido)
-            hambre += helado
-        if cantidadAComer == 1:
-            print('Has comido 1 helado. Ahora estás un ' + str(hambre) + '%' + ' satisfecho y tienes ' + str(dinero) + '€; por lo que:')
-        else:
-            print('Has comido ' + str(cantidadAComer) + ' helados. Ahora estás un ' + str(hambre) + '%' + ' satisfecho y tienes ' + str(dinero) + '€; por lo que:')
-        if float(hambre) < 85.0:
-            print('Sigues teniendo hambre')
-        else:
-            print('Ya no tienes hambre')
-
 # Tarea 6
 # Importamos shipping.py
 customer_basket_cost = 101
