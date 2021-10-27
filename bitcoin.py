@@ -13,6 +13,8 @@ def usdToEuro():
     print("Posees " + str(investment_in_bitcoin) + " Bitcoin(s) valorados en " + str(bitcoinToEuro) + " €")
 
     if float(bitcoinToEuro) < float(30000.0):
-        print("Alerta: El valor de tu(s) Bitcoin(s) está por debajo de los 30.000 €")
+        print("Alerta: El valor de tu(s) Bitcoin(s) está por debajo de los 30,000 €")
+    else:
+        print("Alerta: El valor de tu(s) Bitcoin(s) está por encima de los 30,000 €")
 
 usdToEuro()
