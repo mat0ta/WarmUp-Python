@@ -2,20 +2,6 @@
 import random
 import datetime
 
-# Tarea 8
-# Importamos el código de bitcoin.py (He hecho algo precido directamente en la primera actividad, pero lo repito)
-investment_in_bitcoin = 1.2
-bitcoin_to_usd= 63000
-usd_to_auro = 0.86
-
-def bitcoinToEuros(monto_bitcoin, valor_bitcoin_euros):
-    liquidez =  float(monto_bitcoin) * float(valor_bitcoin_euros)
-    if float(liquidez) < float(30000.0):
-        print("Alerta: El valor de tu(s) Bitcoin(s) está por debajo de los 30.000 € (" + str(liquidez) + "€)")
-    return liquidez
-
-bitcoinToEuros(1, 25000)
-
 # Tarea 9
 # Creamos el archivo flag.txt
 f = open('./flag.txt', 'a')
