@@ -2,12 +2,6 @@
 import random
 import datetime
 
-# Tarea 9
-
-# Tarea 10
-current_time = datetime.datetime.now()
-print(current_time)
-
 # Tarea 11
 repeticiones = 10000
 
