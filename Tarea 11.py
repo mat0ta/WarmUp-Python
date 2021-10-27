@@ -1,12 +1,11 @@
-# Imports
+# Realizamos los imports
 import random
-import datetime
 
-# Tarea 11
+# Declaramos las variables
 repeticiones = 10000
-
 variables = ['salario', 'compañeros', 'distancia', 'comodidad', 'flexibilidad', 'vacaciones']
 
+# Functions
 def Comparativa(grado):
     importancia = [0.8, 0.5, 0.3, 0.7, 0.7, 0.8]
     resultados_finales = []
