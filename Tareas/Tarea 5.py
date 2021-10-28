@@ -23,8 +23,10 @@ else:
             print('Has comido ' + str(cantidadAComer) + ' helados. Ahora estás un ' + str(hambre) + '%' + ' satisfecho y tienes ' + str(dinero) + '€; por lo que:')
         if float(hambre) < 85.0:
             print('Sigues teniendo hambre')
-        else:
+        elif float(hambre) >= 85.0 and float(hambre) <= 100.0:
             print('Ya no tienes hambre')
+        elif float(hambre) > 100.0:
+            print('Estás demasiado lleno.')
 
 # Output: 1
 #         2
