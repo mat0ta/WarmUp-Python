@@ -7,4 +7,4 @@ f = open('../flag.txt', 'r')
 print(f.read())
 f.close()
 
-# Output: *Escribe "Este es un documento .txt" en el archivo flag.txt
+# Output: *Escribe "Este es un documento .txt" en el archivo flag.txt*
