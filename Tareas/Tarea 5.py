@@ -1,6 +1,6 @@
 dinero = 2000
 precioHelado = 100
-edad = 18
+edad = float(input('¿Cual es tu edad?: '))
 hambre = edad
 helado = 20 # Suponemos que el helado te satisface un 20%
 
